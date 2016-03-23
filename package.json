@@ -1,0 +1,23 @@
+{
+  "name": "thebean",
+  "version": "1.0.0",
+  "description": "using react creating a shopping cart app",
+  "main": "webpack.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irenerobb72/thebean.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irenerobb72/thebean/issues"
+  },
+  "homepage": "https://github.com/irenerobb72/thebean#readme"
+}
