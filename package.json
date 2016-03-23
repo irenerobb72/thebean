@@ -7,8 +7,10 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "start": "webpack-dev-server",
+    "test:integration": "webpack & nightwatch",
+    "test": "mocha --compilers js:babel-core/register --require ./test/test-helper.js \"test/**/*.@(js|jsx)\"",
+    "deploy": "NODE_ENV=production webpack -p --config webpack.production.config.js"  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/irenerobb72/thebean.git"
