@@ -1,17 +1,15 @@
-
 const webpack = require('webpack')
 const path = require('path')
 
 module.exports = {
   entry: [
-    'webpack-dev-server/client?http://localhost:8080',
-    './app/index.jsx'
+    './src/index.jsx'
   ],
   module: {
     loaders: [{
       test: /\.jsx?$/,
       exclude: /node_modules/,
-      loader: 'babel'
+      loader: 'envify-loader!babel'
     },
     {
       test: /\.scss$/,
@@ -19,7 +17,7 @@ module.exports = {
     }
   ]},
   resolve: {
-    extensions: ['', '.js']
+    extensions: ['', '.js', '.jsx']
   },
   output: {
     path: __dirname + '/',
