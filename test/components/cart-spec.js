@@ -6,10 +6,10 @@ import {Map} from 'immutable'
 chai.use(chaiEnzyme())
 
 import { mount, render, shallow } from 'enzyme'
-import {Action} from '../../src/components/Cart.jsx'
+import {Cart} from '../../src/components/Cart.jsx'
 
 describe('<Cart/>', () => {
-  xit('renders without any props', () => {
+  it('renders without any props', () => {
     const wrapper = shallow(<Cart/>)
     expect(wrapper).to.be.ok
   })

@@ -6,15 +6,15 @@ import {Map} from 'immutable'
 chai.use(chaiEnzyme())
 
 import { mount, render, shallow } from 'enzyme'
-import {Action} from '../../src/components/Products.jsx'
+import {Products} from '../../src/components/Products.jsx'
 
 describe('<Products/>', () => {
-  xit('renders without any props', () => {
+  it('renders without any props', () => {
     const wrapper = shallow(<Products/>)
     expect(wrapper).to.be.ok
   })
-  xit('has a classname of products', () => {
+  xit('has a className of products', () => {
     const wrapper = shallow(<Products/>)
-    expect(wrapper).to.have.className('Products')
+    expect(wrapper).to.have.className('products')
   })
 })

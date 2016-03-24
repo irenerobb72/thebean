@@ -12,6 +12,7 @@ export class Products extends Component {
     e.preventDefault()
   }
   render() {
+    <div className="products"></div>
   }
 }
 
