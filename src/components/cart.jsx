@@ -4,7 +4,7 @@ import PureRenderMixin from 'react-addons-pure-render-mixin'
 import { connect } from 'react-redux'
 import * as actionCreators from '../action_creators'
 
-export class Action extends Component {
+export class Cart extends Component {
   constructor(props) {
     super(props)
   }
@@ -12,7 +12,10 @@ export class Action extends Component {
     e.preventDefault()
   }
   render() {
+    <div className="">
+
+    </div>
   }
 }
 
-reactMixin(Action.prototype, PureRenderMixin)
+reactMixin(Cart.prototype, PureRenderMixin)

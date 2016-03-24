@@ -4,7 +4,7 @@ import PureRenderMixin from 'react-addons-pure-render-mixin'
 import { connect } from 'react-redux'
 import * as actionCreators from '../action_creators'
 
-export class Action extends Component {
+export class Detail extends Component {
   constructor(props) {
     super(props)
   }
@@ -15,4 +15,4 @@ export class Action extends Component {
   }
 }
 
-reactMixin(Action.prototype, PureRenderMixin)
+reactMixin(Detail.prototype, PureRenderMixin)
