@@ -12,6 +12,8 @@ export class App extends Component {
     e.preventDefault()
   }
   render() {
+    <div className="app"></div>
+
   }
 }
 
