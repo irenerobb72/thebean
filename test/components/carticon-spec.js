@@ -13,4 +13,8 @@ describe('<Carticon/>', () => {
     const wrapper = shallow(<Carticon/>)
     expect(wrapper).to.be.ok
   })
+  it('has a classname of carticon', () => {
+    const wrapper = shallow(<Carticon/>)
+    expect(wrapper).to.have.className('Carticon')
+  })
 })
