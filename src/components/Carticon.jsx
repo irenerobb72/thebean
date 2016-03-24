@@ -12,6 +12,8 @@ export class Carticon extends Component {
     e.preventDefault()
   }
   render() {
+    <div className="carticon"></div>
+
   }
 }
 
