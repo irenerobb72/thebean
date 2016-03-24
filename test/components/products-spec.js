@@ -6,7 +6,7 @@ import {Map} from 'immutable'
 chai.use(chaiEnzyme())
 
 import { mount, render, shallow } from 'enzyme'
-import {Action} from '../../src/components/products.jsx'
+import {Action} from '../../src/components/Products.jsx'
 
 describe('<Products/>', () => {
 
