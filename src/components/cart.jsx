@@ -12,8 +12,8 @@ export class Cart extends Component {
     e.preventDefault()
   }
   render() {
-    <div className="">
-
+    <div className="Cart">
+      <div></div>
     </div>
   }
 }

@@ -1,18 +1,11 @@
-import React, { Component } from 'react'
-import reactMixin from 'react-mixin'
-import PureRenderMixin from 'react-addons-pure-render-mixin'
-import { connect } from 'react-redux'
-import * as actionCreators from '../action_creators'
+import next from './reductions/next'
 
-export class Action extends Component {
-  constructor(props) {
-    super(props)
+function reducer(state = initialState, action) {
+  switch (action.type) {
+    case 'NEXT':
+      return next(state)
   }
-  handleClick(e) {
-    e.preventDefault()
-  }
-  render() {
-  }
+  return state
 }
 
-reactMixin(Action.prototype, PureRenderMixin)
+export default reducer
