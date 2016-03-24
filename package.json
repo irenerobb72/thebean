@@ -10,10 +10,17 @@
     "start": "webpack-dev-server",
     "test:integration": "webpack & nightwatch",
     "test": "mocha --compilers js:babel-core/register --require ./test/test-helper.js \"test/**/*.@(js|jsx)\"",
-    "deploy": "NODE_ENV=production webpack -p --config webpack.production.config.js"  },
+    "deploy": "NODE_ENV=production webpack -p --config webpack.production.config.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/irenerobb72/thebean.git"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
   },
   "keywords": [],
   "author": "",
@@ -21,5 +28,41 @@
   "bugs": {
     "url": "https://github.com/irenerobb72/thebean/issues"
   },
-  "homepage": "https://github.com/irenerobb72/thebean#readme"
+  "homepage": "https://github.com/irenerobb72/thebean#readme",
+  "devDependencies": {
+    "babel-core": "^6.7.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "chai": "^3.5.0",
+    "chai-enzyme": "^0.4.1",
+    "chai-immutable": "^1.5.3",
+    "css-loader": "^0.23.1",
+    "envify-loader": "^0.1.0",
+    "enzyme": "^2.2.0",
+    "jsdom": "^8.1.0",
+    "mocha": "^2.4.5",
+    "node-sass": "^3.4.2",
+    "react-addons-test-utils": "^0.14.7",
+    "react-hot-loader": "^1.3.0",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.0",
+    "supertest": "^1.2.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "history": "^2.0.1",
+    "immutable": "^3.7.6",
+    "lodash": "^4.6.1",
+    "pure-render-decorator": "^0.2.0",
+    "react": "^0.14.7",
+    "react-addons-pure-render-mixin": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-mixin": "^3.0.4",
+    "react-redux": "^4.4.1",
+    "react-router": "^2.0.1",
+    "redux": "^3.3.1",
+    "superagent": "^1.8.2"
+  }
 }

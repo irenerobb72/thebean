@@ -9,5 +9,8 @@ import { mount, render, shallow } from 'enzyme'
 import {Action} from '../../src/components/Carticon.jsx'
 
 describe('<Carticon/>', () => {
-
+  it('renders without any props', () => {
+    const wrapper = shallow(<Carticon/>)
+    expect(wrapper).to.be.ok
+  })
 })
