@@ -3,7 +3,7 @@ var card = '4563960122001999'
 function buyItem(state, item) {
   const Id = state.get('items').findIndex(
     (index) => index.get('name') === item)
-  return validateCard (state, itemId) ?
+  return validateCard () ?
   canBuy(state, item, itemId) : state
 }
 
@@ -22,3 +22,9 @@ function validateCard(card) {
   total = joinNumber.reduce((a, b) => a * 1 + b * 1)
   return total % 10 === 0
 }
+
+function canBuy (state, item, itemId) {
+
+}
+
+export default buyItem
