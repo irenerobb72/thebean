@@ -13,7 +13,6 @@ export class Cart extends Component {
   }
   render() {
     <div className="Cart">
-      <div></div>
     </div>
   }
 }
