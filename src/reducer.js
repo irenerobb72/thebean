@@ -5,8 +5,10 @@ function reducer(state = initialState, action) {
     switch (action.type) {
       case 'BUY_ITEM':
           return buyItem(state, action.task)
-      case 'CHECKOUT':
-        return checkout(state)
+      case 'ADD_TO_CART':
+        return addToCart(state)
+      case 'REMOVE_FROM_CART'
+        return removeFromCart(state)
     }
     return state
 }
