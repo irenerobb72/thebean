@@ -13,7 +13,7 @@ describe('<Products/>', () => {
     const wrapper = shallow(<Products/>)
     expect(wrapper).to.be.ok
   })
-  xit('has a className of products', () => {
+  it('has a className of products', () => {
     const wrapper = shallow(<Products/>)
     expect(wrapper).to.have.className('products')
   })

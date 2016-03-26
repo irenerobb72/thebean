@@ -9,11 +9,15 @@ export class Products extends Component {
     super(props)
   }
   render() {
-    <div className="products">
-      <div>
-        <h1>The Bean</h1>
+    const products =
+    return (
+      <div className="products">
+        <div>
+          <h1>The Bean</h1>
+        </div>
+        { products }
       </div>
-    </div>
+    )
   }
 }
 
