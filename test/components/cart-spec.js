@@ -1,12 +1,12 @@
 import React from 'react'
 import chai, { expect } from 'chai'
 import chaiEnzyme from 'chai-enzyme'
-import {Map} from 'immutable'
+import { Map } from 'immutable'
 
 chai.use(chaiEnzyme())
 
 import { mount, render, shallow } from 'enzyme'
-import {Cart} from '../../src/components/Cart.jsx'
+import { Cart } from '../../src/components/Cart.jsx'
 
 describe('<Cart/>', () => {
   it('renders without any props', () => {
