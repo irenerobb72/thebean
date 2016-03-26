@@ -8,11 +8,12 @@ export class Products extends Component {
   constructor(props) {
     super(props)
   }
-  handleClick(e) {
-    e.preventDefault()
-  }
   render() {
-    <div className="products"></div>
+    <div className="products">
+      <div>
+        <h1>The Bean</h1>
+      </div>
+    </div>
   }
 }
 
