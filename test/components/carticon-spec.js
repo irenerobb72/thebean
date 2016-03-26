@@ -17,4 +17,8 @@ describe('<Carticon/>', () => {
     const wrapper = shallow(<Carticon/>)
     expect(wrapper).to.have.className('Carticon')
   })
+  xit('renders name of cart', () => {
+    const wrapper = shallow(<Carticon/>)
+    expect(wrapper).to.have.text('Your cart')
+  })
 })

@@ -8,3 +8,5 @@ const products = fromJS{[
     {id: 4, name:'Shoe', price:100, qty:0},
   ]
 })
+
+export default products
