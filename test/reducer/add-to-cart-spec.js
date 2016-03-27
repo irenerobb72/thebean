@@ -2,10 +2,11 @@ import { expect } from 'chai'
 import { List, Map, fromJS } from 'immutable'
 import { addToCart } from '../src/reductions/addToCart.js'
 
-describe('BUY_ITEM', () => {
+describe('ADD_TO_CART', () => {
   let initialState = sourceState
   const activity = {
-    type: 'BUY-TIME',
+    type: 'ADD_TO_CART',
     item: 'glasses'
   }
+  describe('')
 })
