@@ -21,4 +21,10 @@ export class Detail extends Component {
   )
 }
 
+function mapStateToProps(state) {
+  return {
+    products: state.get('products')
+  }
+}
+
 reactMixin(Detail.prototype, PureRenderMixin)
