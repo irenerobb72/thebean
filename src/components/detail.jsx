@@ -12,9 +12,12 @@ export class Detail extends Component {
     e.preventDefault()
   }
   render() {
-    <div className="detail"></div>
-
   }
+  return (
+    <div className="detail">
+
+    </div>
+  )
 }
 
 reactMixin(Detail.prototype, PureRenderMixin)
