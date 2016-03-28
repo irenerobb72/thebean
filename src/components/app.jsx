@@ -11,9 +11,7 @@ export class App extends Component {
   constructor(props) {
     super(props)
   }
-  handleClick(e) {
-    e.preventDefault()
-  }
+
   render() {
     <div className="app"></div>
 
