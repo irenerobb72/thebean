@@ -13,7 +13,7 @@ describe('<Detail/>', () => {
     const wrapper = shallow(<Detail/>)
     expect(wrapper).to.be.ok
   })
-  xit('has a classname of carticon', () => {
+  it('has a classname of carticon', () => {
     const wrapper = shallow(<Detail/>)
     expect(wrapper).to.have.className('Detail')
   })

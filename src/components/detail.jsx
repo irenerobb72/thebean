@@ -12,9 +12,10 @@ export class Detail extends Component {
     e.preventDefault()
   }
   render() {
+
   }
   return (
-    <div className="detail">
+    <div className="detail" id={this.props.}>
 
     </div>
   )
