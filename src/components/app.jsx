@@ -14,7 +14,8 @@ export class App extends Component {
 
   render() {
     <div className="app">
-
+      <ProductsContainer/>
+      <CarticonContainer/>
     </div>
 
   }
