@@ -6,6 +6,7 @@ import { Cartcontainer } from '/Cart.jsx'
 import { CarticonContainer } from '/Carticon.jsx'
 import { Detailcontainer } from '/Detail.jsx'
 import { Productscontainer } from '/Products.jsx'
+import * as actionCreators from '../action_creators'
 
 export class App extends Component {
   constructor(props) {
