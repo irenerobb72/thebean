@@ -8,10 +8,11 @@ export class Cart extends Component {
   constructor(props) {
     super(props)
   }
-
   render() {
-    <div className="Cart">
-    </div>
+    return (
+      <div className="Cart">
+      </div>
+    )
   }
 }
 
