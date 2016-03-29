@@ -10,7 +10,6 @@ export class Products extends Component {
     super(props)
   }
   render() {
-
   return (
     <div className="products">
       <div>
