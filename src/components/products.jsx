@@ -10,15 +10,12 @@ export class Products extends Component {
     super(props)
   }
   render() {
-    const products = this.props.products.map( product => {
-      return <Products key={product.get('id')} product={product} />
-  })
+
   return (
     <div className="products">
       <div>
         <h1>The Bean</h1>
       </div>
-        { products }
     </div>
     )
   }
