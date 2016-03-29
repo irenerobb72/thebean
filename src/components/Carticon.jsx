@@ -8,10 +8,14 @@ export class Carticon extends Component {
   constructor(props) {
     super(props)
   }
-
   render() {
+    const products = this.props.products.map((id, index) => {
+      return <div className="product">{index}: <span>+{id}</span></div>
+    })
     return (
-      <div className="carticon"></div>
+      <div className="carticon">
+        {products}
+      </div>
     )
   }
 }
