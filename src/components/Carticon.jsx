@@ -10,8 +10,9 @@ export class Carticon extends Component {
   }
 
   render() {
-    <div className="carticon"></div>
-
+    return (
+      <div className="carticon"></div>
+    )
   }
 }
 
