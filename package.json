@@ -1,11 +1,8 @@
 {
   "name": "thebean",
   "version": "1.0.0",
-  "description": "using react creating a shopping cart app",
-  "main": "webpack.config.js",
-  "directories": {
-    "test": "test"
-  },
+  "description": "my awesome app",
+  "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
     "test:integration": "webpack & nightwatch",
