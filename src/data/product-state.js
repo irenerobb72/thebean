@@ -16,7 +16,7 @@ const products = List([
   Map({
     id: 3,
     name: 'Shirt',
-    price: 40, 
+    price: 40,
     qty: 0
   }),
   Map({
@@ -27,8 +27,3 @@ const products = List([
   })
 )
 export default products
-
-{id: 1, name:'Case', price:15, qty:0},
-{id: 2, name:'Glasses', price:20, qty:0},
-{id: 3, name:'Shirt', price:40, qty:0},
-{id: 4, name:'Shoe', price:100, qty:0},
