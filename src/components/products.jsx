@@ -3,7 +3,7 @@ import reactMixin from 'react-mixin'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
 import { connect } from 'react-redux'
 import * as productMovement from '../product-movement'
-import products from './data/products-state.js'
+import products from '../data/product-state'
 
 export class Products extends Component {
   constructor(props) {

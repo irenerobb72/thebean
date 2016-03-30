@@ -20,4 +20,10 @@ export class Carticon extends Component {
   }
 }
 
-reactMixin(Carticon.prototype, PureRenderMixin)
+function mapStateToProps(state) {
+  return {
+    products: state.get('products')
+  }
+}
+
+export const CarticonContainer = connect(mapStateToProps, productMovement)(Carticon)
