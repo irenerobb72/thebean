@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import reactMixin from 'react-mixin'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
 import { connect } from 'react-redux'
-import * as actionCreators from '../action_creators'
+import * as productMovement from '../product-movement'
 import products from './data/products-state.js'
 
 export class Products extends Component {
@@ -26,4 +26,4 @@ function mapStateToProps(state) {
   }
 }
 
-export const ProductsContainer = connect(mapStateToProps, actionCreators)(Products)
+export const ProductsContainer = connect(mapStateToProps, productMovement)(Products)
