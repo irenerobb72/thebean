@@ -1,5 +1,6 @@
-import buyItem from './reductions/buyitem.js'
-import checkout from './reductions/checkout.js'
+import buyItem from './reductions/buyitem'
+import addToCart from './reductions/addToCart'
+import removeFromCart from './reductions/removeFromCart'
 
 function reducer(state = initialState, action) {
     switch (action.type) {
