@@ -26,4 +26,4 @@ function mapStateToProps(state) {
   }
 }
 
-reactMixin(Products.prototype, PureRenderMixin)
+export const ProductsContainer = connect(mapStateToProps, actionCreators)(Products)
