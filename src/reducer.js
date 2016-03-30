@@ -7,10 +7,10 @@ function reducer(state = initialState, action) {
           return buyItem(state, action.task)
       case 'ADD_TO_CART':
         return addToCart(state)
-      case 'REMOVE_FROM_CART'
+      case 'REMOVE_FROM_CART':
         return removeFromCart(state)
     }
-    return state
+  return state
 }
 
 export default reducer
