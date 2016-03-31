@@ -1,7 +1,7 @@
 import Carticon from '/carticon-state.js'
 import Cart from '/cart-state.js'
 
-let initialState = Map({
+const initialState = Map({
   Carticon: Map({
     products: 0,
     total: 0
