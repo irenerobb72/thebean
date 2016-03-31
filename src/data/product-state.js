@@ -26,4 +26,5 @@ const products = List([
     qty: 0
   })
 ])
+
 export default products
