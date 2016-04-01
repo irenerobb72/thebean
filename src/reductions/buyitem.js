@@ -1,7 +1,8 @@
 function buyItem() {
-  const productId = state.get('products').findIndex(
+  const productPrice = state.get('products').findIndex(
+    (index) => index.get('price') === product)
+  const productName = state.get('products').findIndex(
     (index) => index.get('name') === product)
-  const productName = 
 }
 
 export default buyItem
