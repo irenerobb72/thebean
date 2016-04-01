@@ -1,6 +1,7 @@
 function addToCart() {
-  const productId =
-  const productPrice =
-  const totalPrice =
-  const totalCart = 
+  const productPrice = state.get('products').findIndex(
+    (index) => index.get('price') === product)
+  const productName = state.get('products').findIndex(
+    (index) => index.get('name') === product)
+  const productTotal = productName()  
 }
