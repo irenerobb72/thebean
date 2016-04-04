@@ -1,4 +1,5 @@
-import {id, name, price, qty} from './reductions/addToCart'
+import {id, name, price, qty} from './data/initial-state'
+import { cart, products } from './data/product-state'
 
 function addToCart() {
   const productPrice = state.get('')
