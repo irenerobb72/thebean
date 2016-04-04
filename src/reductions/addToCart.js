@@ -1,8 +1,8 @@
+import {id, name, price, qty} from './reductions/addToCart'
+
 function addToCart() {
-  const productPrice = state.get('products').findIndex(
-    (index) => index.get('price') === product)
-  const productName = state.get('products').findIndex(
-    (index) => index.get('name') === product)
-  const productTotal = productName()
-  const cartTotal = productProice() 
+  const productPrice = state.get('')
+  const productName =
+  const productTotal =
+  const cartTotal =
 }
