@@ -4,9 +4,5 @@ function removeFromCart() {
   const productName = state.get('products').findIndex(
     (index) => index.get('name') === product)
   const productTotal = productName()
-  const cartTotal = productProice()
-
-
-
-  eesdfn 
+  const cartTotal = productPrice() 
 }
