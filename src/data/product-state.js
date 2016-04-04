@@ -4,7 +4,7 @@ const products = List([
   Map({
     id: 1,
     name: 'Case',
-    money: 15,
+    price: 15,
     qty: 0
   }),
   Map({
