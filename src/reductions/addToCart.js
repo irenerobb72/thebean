@@ -1,9 +1,10 @@
-import {id, name, price, qty} from './data/initial-state'
-import { total, products } from './data/product-state'
 
-function addToCart() {
-  const productPrice = state.get('')
-  const productName =
-  const productTotal =
-  const cartTotal =
+function addToCart(state, product) {
+  let newState = state
+  const productTotal = state.get('products')
+  newState = newState.updateIn(['cart'])
+  const cartTotal = state.get('prices')
+  cartTotal.map((value, key) => newState = newState.updateIn(['cart', key],
+      (stateValue) => stateValue+value))
+  return newState
 }
