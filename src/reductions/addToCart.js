@@ -7,3 +7,5 @@ function addToCart(state, product) {
       (stateValue) => stateValue+value))
   return newState
 }
+
+export default addToCart
