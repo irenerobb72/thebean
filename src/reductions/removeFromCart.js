@@ -1,6 +1,9 @@
 function removeFromCart() {
   let newState = state
-  const productTotal = state.get('products')
-  newState = state.updateIn('cart')
-  const cartTotal = state.get('prices')
+  const updatedProductTotal = state.get('products')
+  newState = state.updateIn(['cart'])
+  const updatedPriceTotal = state.get('prices')
+  updatedPriceTotal.map((value, key) => newState = newState.updateIn(['cart', key]))
+    (stateValue) => stateValue+value))
+  return newState
 }
