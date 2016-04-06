@@ -1,8 +1,6 @@
 function removeFromCart() {
-  const productPrice = state.get('products').findIndex(
-    (index) => index.get('price') === product)
-  const productName = state.get('products').findIndex(
-    (index) => index.get('name') === product)
-  const productTotal = productName()
-  const cartTotal = productPrice() 
+  let newState = state
+  const productTotal = state.get('products')
+  newState = state.updateIn('cart')
+  const cartTotal = state.get('prices')
 }

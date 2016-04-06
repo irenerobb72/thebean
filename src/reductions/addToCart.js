@@ -1,4 +1,3 @@
-
 function addToCart(state, product) {
   let newState = state
   const productTotal = state.get('products')
