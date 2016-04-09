@@ -6,3 +6,5 @@ const cartItems = List([
     total: 0
   })
 ])
+
+export default cartItems

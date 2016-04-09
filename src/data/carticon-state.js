@@ -6,3 +6,5 @@ const dropDownCart = List([
     total: 0
   })
 })
+
+export default dropDownCart
