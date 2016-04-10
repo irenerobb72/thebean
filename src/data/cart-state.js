@@ -1,10 +1,11 @@
 import { Map, List } from 'immutable'
+import {products} from './product-state'
 
-const cartItems = List([
-  Cart: Map({
-    products: 0,
+const cart = List([
+  cart: Map({
+    products: 0
     total: 0
   })
 ])
 
-export default cartItems
+export default cart

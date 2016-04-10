@@ -9,14 +9,11 @@ export class Detail extends Component {
     super(props)
   }
   render() {
-    const name = this.props.product.get('name')
-    const id = this.props/product.get('id')
-    const price = this.props.product.get('price')
+
   }
   return (
-    <div className="detail" id={this.props.}>
-      <div id='name'> {name}&nbsp;</div>
-      <Link to={`/products/${id}`}>${price}</Link>
+    <div className="detail">
+
     </div>
   )
 }

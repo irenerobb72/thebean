@@ -1,5 +1,7 @@
 import addToCart from './reductions/addToCart'
 import removeFromCart from './reductions/removeFromCart'
+import initialState  from './data/initial-state'
+
 
 function reducer(state = initialState, action) {
   switch (action.type) {

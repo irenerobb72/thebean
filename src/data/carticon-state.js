@@ -1,10 +1,11 @@
 import { Map, List } from 'immutable'
+import {products} from './product-state'
 
-const dropDownCart = List([
-  Carticon: Map({
-    products: 0,
+const carticon = List([
+  carticon: Map({
+    products: 0
     total: 0
   })
-})
+])
 
-export default dropDownCart
+export default carticon

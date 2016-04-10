@@ -1,15 +1,11 @@
-import Carticon from '/carticon-state.js'
-import Cart from '/cart-state.js'
+import {Map} from 'immutable'
+import carticon from './carticon-state'
+import cart from './cart-state'
+
 
 const initialState = Map({
-  Carticon: Map({
-    products: 0,
-    total: 0
-  }),
-  Cart: Map({
-    products: 0,
-    total: 0
-  })
+  carticon: carticon,
+  cart: cart
 })
 
 export default initialState
