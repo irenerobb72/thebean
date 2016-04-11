@@ -1,9 +1,9 @@
 import { Map, List } from 'immutable'
-import {products} from './product-state'
+import { products } from './product-state'
 
 const carticon = List([
-  carticon: Map({
-    products: 0
+   Map({
+    products: 0,
     total: 0
   })
 ])
