@@ -2,7 +2,7 @@ import { Map, List } from 'immutable'
 import { products } from './product-state'
 
 const carticon = List([
-   Map({
+  Map({
     products: 0,
     total: 0
   })

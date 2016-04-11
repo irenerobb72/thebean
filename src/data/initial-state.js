@@ -1,9 +1,9 @@
-import {Map} from 'immutable'
+import { Map } from 'immutable'
 import carticon from './carticon-state'
 import cart from './cart-state'
 
 
-const initialState = Map({
+let initialState = Map({
   carticon: carticon,
   cart: cart
 })
