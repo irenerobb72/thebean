@@ -13,7 +13,7 @@ export class Products extends Component {
   return (
     <div className="products">
       <div>
-        <h6>{this.props.products}</h6>
+        <p>hrgfdgbg</p>
       </div>
     </div>
     )

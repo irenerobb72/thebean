@@ -3,7 +3,7 @@ const path = require('path')
 
 module.exports = {
   entry: [
-    './src/index.jsx'
+    './src/components/App.jsx'
   ],
   module: {
     loaders: [{
@@ -28,6 +28,6 @@ module.exports = {
     contentBase: './dist'
   },
   sassLoader: {
-     includePaths: [path.resolve(__dirname, "./styles")]
+     includePaths: [path.resolve(__dirname, "./styles/main.scss")]
    }
 }
