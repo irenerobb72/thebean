@@ -4,7 +4,7 @@ export default class Summary extends Component {
   render() {
 
     return (
-      <div className=''>
+      <div className='summary'>
       </div>
     )
   }
