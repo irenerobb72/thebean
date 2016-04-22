@@ -1,16 +1,15 @@
-import addToCart from './reductions/addToCart'
-import removeFromCart from './reductions/removeFromCart'
-import initialState  from './data/initial-state'
+import {fromJS} from 'immutable'
 
+const INITIAL_STATE = fromJS({
+  products: [
+  ]
+})
 
-function reducer(state = initialState, action) {
-  switch (action.type) {
-    case 'ADD_TO_CART':
-      return addToCart(state)
-    case 'REMOVE_FROM_CART':
-      return removeFromCart(state)
+export default (state = INITIAL_STATE, action) => {
+  switch(action.type) {
+    case 'REMOVE_PRODUCT_FROM_CART':
+      return state.set('cart', state.get('cart').slice(1, index).concat(action.slice[index]))
+    default:
+      return state
   }
-  return state
 }
-
-export default reducer

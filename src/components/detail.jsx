@@ -1,22 +1,21 @@
-import React, { Component } from 'react'
-import reactMixin from 'react-mixin'
-import PureRenderMixin from 'react-addons-pure-render-mixin'
-import { connect } from 'react-redux'
-import * as productMovement from '../product-movement'
+import React, {Component} from 'react'
+import {Link} from 'react-router'
+import {connect} from 'react-redux'
 
-export class Detail extends Component {
-  constructor(props) {
-    super(props)
-  }
+class Detail extends Component {
   render() {
 
-  }
-  return (
-    <div className="detail">
+      }
+    return (
 
-    </div>
-  )
+    )
+  }
 }
 
+function mapStateToProps(state) {
+  return {
 
-reactMixin(Detail.prototype, PureRenderMixin)
+  }
+}
+
+export default connect(mapStateToProps)(Detail)
