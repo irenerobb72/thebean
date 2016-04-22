@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "test:integration": "webpack & nightwatch",
     "test": "mocha --compilers js:babel-core/register --require ./test/test-helper.js \"test/**/*.@(js|jsx)\"",
     "deploy": "NODE_ENV=production webpack -p --config webpack.production.config.js"
   },
