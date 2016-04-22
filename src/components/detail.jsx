@@ -7,7 +7,9 @@ class Detail extends Component {
 
       }
     return (
+      <div className='detail'>
 
+      </div>
     )
   }
 }
