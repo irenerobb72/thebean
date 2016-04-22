@@ -7,7 +7,6 @@ class Cart extends Component {
     })
     return (
       <div id='cart'>
-
       </div>
     )
   }
