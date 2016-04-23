@@ -5,6 +5,7 @@ export default class Summary extends Component {
 
     return (
       <div className='summary'>
+        
       </div>
     )
   }
