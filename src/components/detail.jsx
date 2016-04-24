@@ -8,7 +8,7 @@ class Detail extends Component {
       }
     return (
       <div className='detail'>
-
+        <div className='product'></div>
       </div>
     )
   }

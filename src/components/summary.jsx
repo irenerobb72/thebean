@@ -5,7 +5,8 @@ export default class Summary extends Component {
     const products
     return (
       <div className='summary'>
-
+        <div className='products'>
+        </div>
       </div>
     )
   }

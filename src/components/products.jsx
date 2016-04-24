@@ -6,9 +6,7 @@ class Products extends Component {
 
       }
     return (
-      <div className='products'>
-
-      </div>
+      <div className='allProducts'></div>
     )
   }
 }
