@@ -8,7 +8,10 @@ class Detail extends Component {
       }
     return (
       <div className='detail'>
-        <div className='product'></div>
+        <div className='product'>
+          <img><a href='' onClick={img}</a></img>
+
+        </div>
       </div>
     )
   }
