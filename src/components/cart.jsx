@@ -7,6 +7,8 @@ class Cart extends Component {
     })
     return (
       <div id='cart'>
+        <div className='products'>
+        </div>
       </div>
     )
   }
