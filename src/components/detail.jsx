@@ -4,7 +4,9 @@ import {connect} from 'react-redux'
 
 class Detail extends Component {
   render() {
-
+    const allProducts = this.props.products.map((products.map products, index) => {
+      return <div className='product'>{index}: {products}</div>
+    })
       }
     return (
       <div className='detail'>
