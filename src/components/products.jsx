@@ -12,7 +12,7 @@ class Products extends Component {
 }
 function mapStateToProps(state) {
   return {
-
+    products: state.get('products')
   }
 }
 

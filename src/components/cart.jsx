@@ -16,7 +16,8 @@ class Cart extends Component {
 
 function mapStateToProps(state) {
   return {
-
+    products: state.get('products'),
+    cart: state.get('cart')
   }
 }
 

@@ -19,8 +19,19 @@ class Detail extends Component {
 
 function mapStateToProps(state) {
   return {
-
+    products: state.get('products')
   }
 }
 
-export default connect(mapStateToProps)(Detail)
+function mapDispatchToProps(dispatch){
+  return {
+    addToCart: (id) => {
+      dispatch({
+        type: 'ADD_TO_CART'
+        id: parseInt(id)
+      })
+    }
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Detail)
