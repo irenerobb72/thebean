@@ -10,6 +10,7 @@ class Detail extends Component {
       }
     return (
       <div className='detail'>
+          <h6>{this.props.name}</h6>
           <img><a href='' onClick={img}</a></img>
           {allProducts}
       </div>
