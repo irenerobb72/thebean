@@ -19,5 +19,6 @@ describe('<Products/>', () => {
   })
   it('renders the correct product name', () => {
     const wrapper = shallow(<Products name='case'/>)
+    expect(wrapper.find('h6')).to.have.text('case')
   })
 })
