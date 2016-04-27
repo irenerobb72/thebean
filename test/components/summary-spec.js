@@ -17,7 +17,4 @@ describe('<Summary/>', () => {
     const wrapper = shallow(<Summary/>)
     expect(wrapper).to.have.className('summary')
   })
-  it('renders the correct product name', () => {
-    const wrapper = shallow(<Summary name='case'/>)
-  })
 })

@@ -17,7 +17,4 @@ describe('<Cart/>', () => {
     const wrapper = shallow(<Cart/>)
     expect(wrapper).to.have.className('cart')
   })
-  it('renders the correct product name', () => {
-    const wrapper = shallow(<Cart name='case'/>)
-  })
 })
