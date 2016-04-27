@@ -6,9 +6,9 @@ class Cart extends Component {
     const allProducts = this.props.products.map((products, index) => {
       return <div className='cart'>{index}: {products}</div>
     })
-    })
     return (
       <div className='products'>
+        {products}
       </div>
     )
   }
