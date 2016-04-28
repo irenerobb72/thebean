@@ -8,7 +8,9 @@ class Products extends Component {
     })
       }
     return (
-      <div className='allProducts'></div>
+      <div className='product'>
+        {this.props.name}
+      </div>
     )
   }
 }
