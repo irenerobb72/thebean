@@ -3,8 +3,8 @@ import { render } from 'react-dom'
 import {createStore} from 'redux';
 import {Provider} from 'react-redux';
 
-import reducer from './src/reducer'
-import App from './src/components/app.jsx'
+import reducer from './reducer'
+import App from './components/app.jsx'
 
 require('../main.scss')
 
